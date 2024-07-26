@@ -23,8 +23,8 @@
     font-size:2em;
     color:antiquewhite;
     margin-bottom:12px;
-    top:25px;
-    left:425px;
+    top:95px;
+    left:480px;
 }
 
 .overallR  #yh2R .fa-solid.fa-futbol{
@@ -38,6 +38,8 @@
     width:550px;
     padding:25px;
     border-radius: 10px;
+    margin-top: 150px;
+    margin-bottom: 200px;
 }
 
 .overallR .regboxR .formboxR{
@@ -152,6 +154,10 @@
     border-radius: 4px;
 }
 
+.overallR .regboxR .buttonR  #buttongR:hover{
+    background: #242427;
+}
+
 .overallR .regboxR .buttonR  #buttongR a{
     text-decoration: none;
     font-size:19px;
@@ -171,6 +177,10 @@
     border-radius: 4px;
 }
 
+.overallR .regboxR .buttonR  #buttonlR:hover{
+    background: #242427;
+}
+
 .overallR .regboxR .buttonR  #buttonlR a{
     text-decoration: none;
     font-size:19px;
@@ -179,5 +189,30 @@
 
 .overallR .regboxR .buttonR  #buttonlR a .fa-brands.fa-linkedin{
     color:antiquewhite;
-    margin-right: 5px;
+    margin-right: 3px;
+    font-size: 25px;
 }
+
+.overallR .regboxR #pR{
+    margin-top: 10px;
+    padding:10px;
+    color:#747577;
+}
+
+.overallR .regboxR #pR a{
+    text-decoration: none;
+    color:#66ff00;
+}
+
+.overallR .regboxR #pR a:hover{
+    font-size: 15px;
+}
+
+.overallR .regboxR #pR a .fa-solid.fa-arrow-right{
+    color:#66ff00;
+}
+
+/* end of registration.html*/
+
+/* Beginning of Login.html*/
+
