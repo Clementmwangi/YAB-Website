@@ -6,7 +6,6 @@
    
 }
 
-
 .overallR{
     width:100%;
     min-height:100dvh;
@@ -42,9 +41,10 @@
 }
 
 .overallR .regboxR .formboxR{
-    height:300px;
+    height:400px;
     position:relative;
     padding:10px;
+    margin-bottom:5px;
 }
 
 .overallR .regboxR #ch2R{
@@ -67,6 +67,7 @@
 .overallR .regboxR .formboxR .formbox2R{
     padding:5px;
     position:relative;
+    
 }
 
 .overallR .regboxR .formboxR input{
@@ -96,3 +97,87 @@
     transition:0.2s ease;
 }
 
+.overallR .regboxR .formboxR #buttonsR{
+    margin-top:15px;
+    width:100%;
+    padding:5px;
+    background:#242f40;
+    border-radius:4px;
+    font-size:1.4em;
+    margin-bottom:10px;
+}
+
+.overallR .regboxR .formboxR #buttonsR:hover{
+    background:#182232;
+    color:black;
+}
+
+.overallR .regboxR .formboxR #buttonsR a{
+    text-decoration: none;
+    color:rgb(33, 233, 33);
+}
+
+.overallR .regboxR .formboxR #buttonsR a:hover{
+    background:#182232;
+    color:black;
+}
+
+.overallR .regboxR .formboxR #regh2R{
+    margin-bottom: 10px;
+    width:100%;
+    text-align: center;
+    border-bottom: 1px solid #747577;
+    line-height: 0.1em;
+    margin:20px 0 20px;
+}
+
+.overallR .regboxR .formboxR #regh2R span{
+    padding:0 10px;
+    background:#182232;
+    font-size:20px;
+    color:#747577;
+}
+
+.overallR .regboxR .buttonR{
+    position:relative;
+    padding:10px;
+    margin-bottom:10px;
+}
+
+.overallR .regboxR .buttonR  #buttongR{
+    width:100%;
+    padding:5px 30px;
+    margin-bottom: 10px;
+    background:#242f40;
+    border-radius: 4px;
+}
+
+.overallR .regboxR .buttonR  #buttongR a{
+    text-decoration: none;
+    font-size:19px;
+    color:antiquewhite;
+}
+
+.overallR .regboxR .buttonR  #buttongR a .fa-brands.fa-google{
+    color:antiquewhite;
+    margin-right: 5px;
+}
+
+.overallR .regboxR .buttonR  #buttonlR{
+    width:100%;
+    padding:5px 30px;
+    margin-bottom: 5px;
+    background:#242f40;
+    border-radius: 4px;
+}
+
+.overallR .regboxR .buttonR  #buttonlR a{
+    text-decoration: none;
+    font-size:19px;
+    color:antiquewhite;
+}
+
+.overallR .regboxR .buttonR  #buttonlR a .fa-brands.fa-linkedin{
+    color:antiquewhite;
+    margin-right: 5px;
+}
