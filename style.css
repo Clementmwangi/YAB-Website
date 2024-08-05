@@ -17,59 +17,45 @@
     position: relative;
 }
 
-.overallR  #yh2R{
-    position: absolute;
-    text-align: center;
-    font-size:2em;
-    color:antiquewhite;
-    margin-bottom:12px;
-    top:95px;
-    left:480px;
-}
-
-.overallR  #yh2R .fa-solid.fa-futbol{
-    margin-right: 12px;
-    color:rgb(33, 233, 33);
-    font-size:1.2em;
-}
-
 .overallR .regboxR{
     background:#182232;
-    width:550px;
+    width:600px;
     padding:25px;
     border-radius: 10px;
     margin-top: 150px;
     margin-bottom: 200px;
 }
 
-.overallR .regboxR .formboxR{
-    height:400px;
+.overallR .regboxR .topR{
     position:relative;
-    padding:10px;
-    margin-bottom:5px;
+    margin-bottom: 20px;
+    padding:15px;
+}
+
+.overallR .regboxR .topR #yh2R{
+    position: absolute;
+    top:-100px;
+    left:-29px;
+    font-size:1.7em;
+    color:antiquewhite;
+}
+
+.overallR .regboxR .topR #yh2R .fa-solid.fa-futbol{
+    margin-right: 12px;
+    color:rgb(33, 233, 33);
+    font-size:1.2em;
 }
 
 .overallR .regboxR #ch2R{
-    position:absolute;
     font-size:1.7em;
     color:antiquewhite;
-    margin-bottom:25px;
-    font-weight: 300;
-    left:17px;
-    top:13px;
 }
 
-.overallR .regboxR .formboxR .formbox1R{
-    padding:5px;
+.overallR .regboxR .formboxR{
+    padding:15px;
     position:relative;
-    margin-bottom:30px;
-    margin-top:90px;
-}
-
-.overallR .regboxR .formboxR .formbox2R{
-    padding:5px;
-    position:relative;
-    
+    margin-top:20px;
+    margin-bottom: 5px;
 }
 
 .overallR .regboxR .formboxR input{
@@ -82,51 +68,38 @@
     outline:none;
     font-size:1.5em;
     color:white;
+    margin-top: 10px;
 }
 
 .overallR .regboxR .formboxR input:focus{
     color:#66ff00;
-    border:2px solid #66ff00;
+    border:1px solid #66ff00;
 }
 
-
 .overallR .regboxR .formboxR label{
-    position:absolute;
-    font-size:1.1em;
-    top:-27px;
-    left:7px;
+    font-size: 17px;
+    font-weight: 500;
     color:#747577; 
     transition:0.2s ease;
 }
 
 .overallR .regboxR .formboxR #buttonsR{
-    margin-top:15px;
-    width:100%;
-    padding:5px;
+    width: 100%;
+    padding:8px 30px;
+    margin-top: 20px;
+    font-size: 19px;
     background:#242f40;
     border: none;
-    border-radius:4px;
-    font-size:1.4em;
-    margin-bottom:10px;
+    color:limegreen;
+    margin-bottom: 20px;
 }
 
 .overallR .regboxR .formboxR #buttonsR:hover{
-    background:#66ff00;
-    color:black;
-}
-
-.overallR .regboxR .formboxR #buttonsR a{
-    text-decoration: none;
-    color:rgb(33, 233, 33);
-}
-
-.overallR .regboxR .formboxR #buttonsR a:hover{
-    background:#66ff00;
-    color:black;
+    background-color:#5e6065;
+    color: limegreen;
 }
 
 .overallR .regboxR .formboxR #regh2R{
-    margin-bottom: 10px;
     width:100%;
     text-align: center;
     border-bottom: 1px solid #747577;
@@ -149,46 +122,45 @@
 
 .overallR .regboxR .buttonR  #buttongR{
     width:100%;
-    padding:5px 30px;
+    padding:8px 30px;
     margin-bottom: 10px;
-    background:#121c2b;
+    background:#182232;
     border-radius: 4px;
+    outline:1px solid #8799b5;
+    border: none;
+    font-size: 19px;
+    color: antiquewhite;
+    transition: .2s;
 }
 
 .overallR .regboxR .buttonR  #buttongR:hover{
-    background: #242427;
+    background: #5e6065;
 }
 
-.overallR .regboxR .buttonR  #buttongR a{
-    text-decoration: none;
-    font-size:19px;
-    color:antiquewhite;
-}
-
-.overallR .regboxR .buttonR  #buttongR a .fa-brands.fa-google{
+.overallR .regboxR .buttonR  #buttongR .fa-brands.fa-google{
     color:antiquewhite;
     margin-right: 5px;
 }
 
 .overallR .regboxR .buttonR  #buttonlR{
     width:100%;
-    padding:5px 30px;
+    padding:8px 30px;
     margin-bottom: 5px;
-    background:#121c2b;
+    background:#182232;
     border-radius: 4px;
+    outline:1px solid #8799b5;
+    border: none;
+    font-size: 19px;
+    color: antiquewhite;
+    transition: .2s;
 }
 
 .overallR .regboxR .buttonR  #buttonlR:hover{
-    background: #242427;
+    background: #5e6065;
 }
 
-.overallR .regboxR .buttonR  #buttonlR a{
-    text-decoration: none;
-    font-size:19px;
-    color:antiquewhite;
-}
 
-.overallR .regboxR .buttonR  #buttonlR a .fa-brands.fa-linkedin{
+.overallR .regboxR .buttonR  #buttonlR .fa-brands.fa-linkedin{
     color:antiquewhite;
     margin-right: 3px;
     font-size: 25px;
@@ -206,7 +178,7 @@
 }
 
 .overallR .regboxR #pR a:hover{
-    font-size: 15px;
+    text-decoration: underline;
 }
 
 .overallR .regboxR #pR a .fa-solid.fa-arrow-right{
@@ -285,7 +257,7 @@
 
 .overallT .loginboxT .formboxT .formboxovT input:focus{
     color:#66ff00;
-    border:2px solid #66ff00;
+    border:1px solid #66ff00;
 }
     
 .overallT .loginboxT .formboxT .formboxovT label{
@@ -326,11 +298,28 @@
     text-decoration: underline;
 }
 
+/* .overallT .loginboxT .formboxT #submitbtnT{ */
+    /* width: 100%; */
+    /* padding:8px 30px; */
+    /* margin-top: 10px; */
+    /* font-size: 19px; */
+/* } */
+
+
+
 .overallT .loginboxT .formboxT #submitbtnT{
     width: 100%;
     padding:8px 30px;
     margin-top: 10px;
     font-size: 19px;
+    background:#242f40;
+    border: none;
+    color:limegreen;
+}
+
+.overallT .loginboxT .formboxT #submitbtnT:hover{
+    background-color:#5e6065;
+    color: limegreen;
 }
 
 .overallT .loginboxT .formboxT #regh2T{
@@ -366,8 +355,7 @@
 
 .overallT .loginboxT .buttonT #button1T:hover{
     background: #5e6065;
-    color: antiquewhite;
-    
+    color: antiquewhite;   
 }
 
 .overallT .loginboxT .buttonT #button2T{
