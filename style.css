@@ -440,9 +440,23 @@
 }
 
 .overallF .navbarF .navbar1F .navbar1aF{
-    background: #121c2b;
     margin-left: 65px;
+    position: relative;
+    overflow: hidden;
 }
+
+.overallF .navbarF .navbar1F .navbar1aF::before{
+    content: '';
+    top:0;
+    right:0;
+    width:100%;
+    height:100%;
+    background:#121c2b;
+    position:absolute;
+    animation: showRight 2s ease forwards;
+    animation-delay: .2s;
+}
+
 
 .overallF .navbarF .navbar1F .navbar1aF h2{
     font-size: 24px;
@@ -463,6 +477,19 @@
     margin-right: 15px;
     display: flex;
     gap: 25px;
+    position: relative;
+}
+
+.overallF .navbarF .navbar2F::before{
+    content: '';
+    top:0;
+    right:0;
+    width:100%;
+    height:100%;
+    background:#121c2b;
+    position:absolute;
+    animation: showRight 2s ease forwards;
+    animation-delay: .10s;
 }
 
 .overallF .navbarF .navbar2F .offersF{
@@ -520,4 +547,12 @@
 .overallF .navbarF .navbar2F .loginF a:hover{
     background: #1d1e26;
     color:#66ff00;
+}
+
+
+/*used for all the animations*/
+@keyframes showRight{
+    100%{
+        width: 0;
+    }
 }
