@@ -419,3 +419,105 @@
 .overallT .loginboxT #pT a:hover{
     text-decoration: underline;
 }
+
+/*End of login html*/
+
+/*Beginning of index.html*/
+
+.overallF{
+    background: #121c2b;
+    width: 100%;
+    min-height: 100dvh;
+}
+
+.overallF .navbarF{
+    position: fixed;
+    display:flex;
+    width: 100%;
+    height:60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.overallF .navbarF .navbar1F .navbar1aF{
+    background: #121c2b;
+    margin-left: 65px;
+}
+
+.overallF .navbarF .navbar1F .navbar1aF h2{
+    font-size: 24px;
+    font-weight: 600;
+    background:linear-gradient(to right, #66ff00, aqua);
+    background-clip: text;
+    color:transparent;
+}
+
+.overallF .navbarF .navbar1F .navbar1aF h2 .fa-solid.fa-futbol{
+    background:linear-gradient(to right, #66ff00, aqua);
+    background-clip: text;
+    color:transparent;
+    margin-right: 5px;
+}
+
+.overallF .navbarF .navbar2F{
+    margin-right: 15px;
+    display: flex;
+    gap: 25px;
+}
+
+.overallF .navbarF .navbar2F .offersF{
+    background: #121c2b;
+    display: flex;
+    align-items: center;
+    gap:39px;
+}
+
+.overallF .navbarF .navbar2F .offersF a{
+    text-decoration: none;
+    font-size: 18px;
+    color:#8799b5;
+    transition: .1s;
+}
+
+.overallF .navbarF .navbar2F .offersF a:hover{
+    text-decoration: underline;
+    color:#66ff00;
+}
+
+.overallF .navbarF .navbar2F .loginF button{
+    background-color: #66ff00;
+    padding:9px 13px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.overallF .navbarF .navbar2F .loginF .content-loginF{
+    position: absolute;
+    background-color: #182232;
+    min-width: 82px;
+    box-shadow: 2px 2px 2px #020203;
+    display: none;
+}
+
+.overallF .navbarF .navbar2F .loginF .content-loginF a{
+    display:block;
+    text-decoration: none;
+    padding:13px 33px;
+    color:#8799b5;
+}
+
+.overallF .navbarF .navbar2F .loginF:hover .content-loginF{
+    display:block
+}
+
+.overallF .navbarF .navbar2F .loginF:hover button{
+    background: #91ff48;
+}
+
+.overallF .navbarF .navbar2F .loginF a:hover{
+    background: #1d1e26;
+    color:#66ff00;
+}
