@@ -431,12 +431,15 @@
 }
 
 .overallF .navbarF{
-    position: fixed;
+    position: sticky;
+    top:0;
     display:flex;
     width: 100%;
     height:60px;
     align-items: center;
     justify-content: space-between;
+    background: #121c2b;
+    z-index: 1000;
 }
 
 .overallF .navbarF .navbar1F .navbar1aF{
@@ -456,7 +459,6 @@
     animation: showRight 2s ease forwards;
     animation-delay: .2s;
 }
-
 
 .overallF .navbarF .navbar1F .navbar1aF h2{
     font-size: 24px;
@@ -548,6 +550,108 @@
     background: #1d1e26;
     color:#66ff00;
 }
+
+/*end of navbar begginning of sectionF*/
+
+.overallF .sectionF{
+    width:100%;
+    height:600px;
+    position: relative;
+    padding: 60px;
+}
+
+.overallF .sectionF .sectionF-text{
+    z-index: 5;
+}
+
+.overallF .sectionF .sectionF-text .sectionF-heading{
+    margin-bottom: 15px;
+}
+
+.overallF .sectionF .sectionF-text .sectionF-heading h2{
+    color:white;
+    width:650px;
+    font-size:3em;
+}
+
+.overallF .sectionF .sectionF-text .sectionF-p{
+    width:780px;
+    margin-bottom: 15px;
+}
+
+.overallF .sectionF .sectionF-text .sectionF-p p{
+    font-size: 17px;
+    color:#8799b5;
+    font-weight: 500;
+    line-height: 1.3em;
+}
+
+.overallF .sectionF .sectionF-btns{
+    width:350px;
+    height:50px;
+    display:flex;
+    justify-content:space-between;
+    position:relative;
+    margin-bottom: 17px;
+}
+
+.overallF .sectionF .sectionF-btns a{
+    position:relative;
+    border:none;
+    border-radius:8px;
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    width:150px;
+    height:100%;
+    padding:10px;
+    align-items:center;
+    font-size:25px;
+    font-weight:200;
+    background:#66ff00;
+    text-decoration:none;
+    color:#081b29;
+    align-content:center;
+    z-index:1;
+    overflow:hidden;
+    transition:.5s;
+}
+
+.overallF .sectionF .sectionF-end{
+    width:390px;
+    height:45px;
+    position:relative;
+}
+
+.overallF .sectionF .sectionF-end a{
+    order:none;
+    border-radius:8px;
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    width:385px;
+    height:100%;
+    padding:10px;
+    font-size:17px;
+    font-weight:200;
+    background:#3e4042;
+    text-decoration:none;
+    color:#66ff00;
+    align-content:center;
+    z-index:1;
+}
+
+.overallF .sectionF .sectionF-end a .fa-solid.fa-arrow-right{
+    margin-left: 3px;
+}
+
+.overallF .sectionF .sectionF-end a:hover{
+    text-decoration: underline;
+}
+
+
+
+
 
 
 /*used for all the animations*/
