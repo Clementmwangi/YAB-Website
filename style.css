@@ -513,59 +513,113 @@
     color:#66ff00;
 }
 
-.overallF .navbarF .navbar2F .loginF button{
+.overallF .navbarF .navbar2F .loginF{
+    position: relative;
+    width:225px;
+    height:40px;
+    background:transparent;
+    display:flex;
+    justify-content:space-between;
+}
+
+.overallF .navbarF .navbar2F .loginF a{
     background-color: #66ff00;
     padding:9px 13px;
-    border: none;
+    border: 1px solid #66ff00;
     border-radius: 5px;
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
-}
-
-.overallF .navbarF .navbar2F .loginF .content-loginF{
-    position: absolute;
-    background-color: #182232;
-    min-width: 82px;
-    box-shadow: 2px 2px 2px #020203;
-    display: none;
-}
-
-.overallF .navbarF .navbar2F .loginF .content-loginF a{
-    display:block;
     text-decoration: none;
-    padding:13px 33px;
-    color:#8799b5;
+    color: black;
+    position: relative;
+    overflow:hidden;
+    transition:.5s;
+    z-index: 1;
 }
 
-.overallF .navbarF .navbar2F .loginF:hover .content-loginF{
-    display:block
+
+.overallF .navbarF .navbar2F .loginF a:nth-child(1){
+    background:#121c2b;
+    color:#66ff00;
+    border:1px solid #66ff00;
 }
 
-.overallF .navbarF .navbar2F .loginF:hover button{
-    background: #91ff48;
+.overallF .navbarF .navbar2F .loginF::before{
+    content: '';
+    top:0;
+    right:0;
+    width:100%;
+    height:100%;
+    background:#121c2b;
+    position:absolute;
+    animation: showRight 2s ease forwards;
+    animation-delay: .10s;
 }
 
 .overallF .navbarF .navbar2F .loginF a:hover{
-    background: #1d1e26;
+    color:black;
+}
+
+.overallF .navbarF .navbar2F .loginF a:nth-child(2):hover{
     color:#66ff00;
+}
+
+.overallF .navbarF .navbar2F .loginF a::before{
+    content: '';
+    width:0;
+    height:100%;
+    top:0;
+    left:0;
+    position:absolute;
+    z-index:-1; 
+    transition:.5s;
+    background: #66ff00;
+}
+
+.overallF .navbarF .navbar2F .loginF a:nth-child(2)::before{
+    background: #121c2b;
+}
+
+.overallF .navbarF .navbar2F .loginF a:hover::before{
+    width: 100%;
 }
 
 /*end of navbar begginning of sectionF*/
 
 .overallF .sectionF{
     width:100%;
-    height:600px;
+    height:500px;
     position: relative;
     padding: 60px;
+    margin-bottom: 5px;
 }
 
-.overallF .sectionF .sectionF-text{
-    z-index: 5;
+.overallF .sectionF video{
+    position: absolute;
+    top: 0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.overallF .sectionF .overlayf{
+    position: absolute;
+    top: 0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#03a9f4;
+    mix-blend-mode: overlay;
 }
 
 .overallF .sectionF .sectionF-text .sectionF-heading{
-    margin-bottom: 15px;
+    position: relative;
+    margin-bottom: 25px;
+    z-index: 1;
 }
 
 .overallF .sectionF .sectionF-text .sectionF-heading h2{
@@ -575,13 +629,15 @@
 }
 
 .overallF .sectionF .sectionF-text .sectionF-p{
+    position: relative;
     width:780px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+    z-index: 1;
 }
 
 .overallF .sectionF .sectionF-text .sectionF-p p{
-    font-size: 17px;
-    color:#8799b5;
+    font-size: 25px;
+    color:white;
     font-weight: 500;
     line-height: 1.3em;
 }
@@ -592,12 +648,12 @@
     display:flex;
     justify-content:space-between;
     position:relative;
-    margin-bottom: 17px;
+    margin-bottom: 20px;
 }
 
 .overallF .sectionF .sectionF-btns a{
     position:relative;
-    border:none;
+    border:1px solid #66ff00;
     border-radius:8px;
     display:inline-flex;
     justify-content:center;
@@ -617,28 +673,59 @@
     transition:.5s;
 }
 
+.overallF .sectionF .sectionF-btns a:hover{
+    color:#66ff00;
+}
+
+.overallF .sectionF .sectionF-btns a::before{
+    content: '';
+    width:0;
+    height:100%;
+    top:0;
+    left:0;
+    position:absolute;
+    z-index:-1; 
+    transition:.5s;
+    background: #121c2b;
+}
+
+.overallF .sectionF .sectionF-btns a:hover::before{
+    width:100%;
+}
+
 .overallF .sectionF .sectionF-end{
-    width:390px;
+    width:450px;
     height:45px;
     position:relative;
+    z-index: 1;
+}
+
+.overallF .sectionF .sectionF-end a button{
+    padding: 7px 5px;
+    margin-right: 7px;
+    border: none;
+    border-radius: 15px;
+    background: #242f40;
+    color: #66ff00;
+    text-decoration: none;
+    font-weight: 600;
 }
 
 .overallF .sectionF .sectionF-end a{
-    order:none;
+    border:1px solid #66ff00;
     border-radius:8px;
     display:inline-flex;
     justify-content:center;
     align-items:center;
-    width:385px;
+    width:445px;
     height:100%;
     padding:10px;
     font-size:17px;
     font-weight:200;
-    background:#3e4042;
+    background:#121c2b;
     text-decoration:none;
-    color:#66ff00;
+    color:#8799b5;
     align-content:center;
-    z-index:1;
 }
 
 .overallF .sectionF .sectionF-end a .fa-solid.fa-arrow-right{
@@ -646,13 +733,8 @@
 }
 
 .overallF .sectionF .sectionF-end a:hover{
-    text-decoration: underline;
+    color:#66ff00;
 }
-
-
-
-
-
 
 /*used for all the animations*/
 @keyframes showRight{
