@@ -589,10 +589,16 @@
 
 .overallF .sectionF{
     width:100%;
-    height:500px;
+    height:540px;
     position: relative;
     padding: 60px;
     margin-bottom: 5px;
+    mask-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 1) 20%,
+        rgba(0, 0, 0, 1) 80%,
+        rgba(0, 0, 0, 0)
+        );
 }
 
 .overallF .sectionF video{
@@ -612,13 +618,13 @@
     left:0;
     width:100%;
     height:100%;
-    background:#03a9f4;
+    background:#252c2f;
     mix-blend-mode: overlay;
 }
 
 .overallF .sectionF .sectionF-text .sectionF-heading{
     position: relative;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
     z-index: 1;
 }
 
@@ -631,7 +637,7 @@
 .overallF .sectionF .sectionF-text .sectionF-p{
     position: relative;
     width:780px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
     z-index: 1;
 }
 
@@ -741,4 +747,164 @@
     100%{
         width: 0;
     }
+}
+
+.wrapperF{
+    width:90%; 
+    max-width:1366px; 
+    margin-inline: auto;
+    position: relative;
+    height:100px;
+    margin-top: 3px;
+    overflow: hidden;
+    mask-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 1) 20%,
+        rgba(0, 0, 0, 1) 80%,
+        rgba(0, 0, 0, 0)
+        );
+}
+
+@keyframes scrollleft{
+    to{
+        left:-200px;
+    }
+}
+
+.itemF{
+    width:200px;
+    height:100px;
+    /* background: red; */
+    border-radius: 6px;
+    position:absolute;
+    left: max(calc(200px * 8), 100%);
+    animation-name: scrollleft;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.item1F {
+    animation-delay: calc(30s / 8 * (8 - 1) * -1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item1F p{
+    font-size:1.8em;
+    font-weight: 800;
+    background:linear-gradient(to right, #66ff00, blue);
+    background-clip: text;
+    color:transparent;
+}
+
+.item2F {
+    animation-delay: calc(30s / 8 * (8 - 2) * -1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item2F p{
+    font-size:1.8em;
+    font-weight: 800;
+    /* background:linear-gradient(to right, #66ff00, blue);
+    background-clip: text;
+    color:transparent; */
+    color: white;
+}
+
+.item3F {
+    animation-delay: calc(30s / 8 * (8 - 3) * -1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item3F p{
+    font-size:1.8em;
+    font-weight: 800;
+    background:linear-gradient(to right, #66ff00, blue);
+    background-clip: text;
+    color:transparent;
+}
+
+.item4F {
+    animation-delay: calc(30s / 8 * (8 - 4) * -1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item4F p{
+    font-size:2.1em;
+    font-weight: 800;
+    /* background:linear-gradient(to right, #66ff00, blue);
+    background-clip: text;
+    color:transparent; */
+    color: white;
+}
+
+.item5F {
+    animation-delay: calc(30s / 8 * (8 - 5) * -1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item5F p{
+    font-size:2.1em;
+    font-weight: 800;
+    background:linear-gradient(to right, #66ff00, blue);
+    background-clip: text;
+    color:transparent;
+}
+
+.item6F {
+    animation-delay: calc(30s / 8 * (8 - 6) * -1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item6F p{
+    font-size:2.1em;
+    font-weight: 800;
+    /* background:linear-gradient(to right, #66ff00, blue);
+    background-clip: text;
+    color:transparent; */
+    color:white;
+}
+
+.item7F {
+    animation-delay: calc(30s / 8 * (8 - 7) * -1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item7F p{
+    font-size:2.1em;
+    font-weight: 800;
+    background:linear-gradient(to right, #66ff00, blue);
+    background-clip: text;
+    color:transparent;
+}
+
+.item8F {
+    animation-delay: calc(30s / 8 * (8 - 8) * -1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item8F p{
+    font-size:2.1em;
+    font-weight: 800;
+    /* background:linear-gradient(to right, #66ff00, blue);
+    background-clip: text;
+    color:transparent; */
+    color:white;
 }
