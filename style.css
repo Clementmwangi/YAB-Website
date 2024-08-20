@@ -538,7 +538,6 @@
     z-index: 1;
 }
 
-
 .overallF .navbarF .navbar2F .loginF a:nth-child(1){
     background:#121c2b;
     color:#66ff00;
@@ -907,4 +906,225 @@
     background-clip: text;
     color:transparent; */
     color:white;
+}
+
+/*end of index.html*/
+
+/* start of Plogin.html*/
+
+.overallPlo{
+    width: 100%;
+    min-height:100dvh;
+    background-color:#121c2b;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.overallPlo .loginboxPlo{
+    background:#182232;
+    width:600px;
+    padding:25px;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+
+.overallPlo .loginboxPlo .topPlo{
+    position:relative;
+    margin-bottom: 20px;
+    padding:15px;
+}
+
+.overallPlo .loginboxPlo .topPlo #yh2Plo{
+    position: absolute;
+    top:-90px;
+    left:-19px;
+    font-size:1.7em;
+    background:linear-gradient(to right, #66ff00, aqua);
+    background-clip: text;
+    color:transparent;
+}
+
+.overallPlo .loginboxPlo .topPlo #yh2Plo .fa-solid.fa-futbol{
+    margin-right: 12px;
+    color:rgb(33, 233, 33);
+    font-size:1.2em;
+}
+
+.overallPlo .loginboxPlo .topPlo #ch2Plo{
+    font-size:1.7em;
+    background:linear-gradient(to right, #66ff00, aqua);
+    background-clip: text;
+    color:transparent;
+}
+
+.overallPlo .loginboxPlo .formboxPlo{
+    padding:15px;
+    margin-bottom: 20px;
+}
+
+.overallPlo .loginboxPlo .formboxPlo .formboxovPlo{
+    position: relative;
+}
+
+.overallPlo .loginboxPlo .formboxPlo .formboxovPlo input{
+    width:100%;
+    margin-bottom: 20px;
+    padding:8px 30px;
+    background:#242f40;
+    border:none;
+    border-radius:4px;
+    color: antiquewhite;
+    font-size: 19px;
+    margin-top: 10px;
+    outline: none;
+}
+
+.overallPlo .loginboxPlo .formboxPlo .formboxovPlo input:focus{
+    color:#66ff00;
+    border:1px solid #66ff00;
+}
+    
+.overallPlo .loginboxPlo .formboxPlo .formboxovPlo label{
+    color:#747577;
+    font-size: 17px;
+    font-weight: 500;
+}
+ 
+.overallPlo .loginboxPlo .formboxPlo .checkboxPlo{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+.overallPlo .loginboxPlo .formboxPlo .checkboxPlo #checkboxlPlo{
+    font-size: 17px;
+    color:#747577;
+    margin-left: 4px;
+}
+
+.overallPlo .loginboxPlo .formboxPlo .checkboxPlo input{
+    accent-color:#66ff00;
+    margin: 4px 0 0;
+    line-height: normal;
+    width: 15px;
+    height: 15px;
+}
+
+.overallPlo .loginboxPlo .formboxPlo .checkboxPlo a{
+    text-decoration: none;
+    font-size: 17px;
+    color:#747577;
+}
+
+.overallPlo .loginboxPlo .formboxPlo .checkboxPlo a:hover{
+    color:#66ff00;
+    text-decoration: underline;
+}
+
+.overallPlo .loginboxPlo .formboxPlo #submitbtnPlo{
+    width: 100%;
+    padding:8px 30px;
+    margin-top: 10px;
+    font-size: 19px;
+    background:#242f40;
+    border: none;
+    color:#66ff00;
+}
+
+.overallPlo .loginboxPlo .formboxPlo #submitbtnPlo:hover{
+    box-shadow:9px 9px 9px #131419 inset,
+    -7px 7px 7px #242f40 inset;
+    color: limegreen;
+}
+
+.overallPlo .loginboxPlo .formboxPlo #regh2Plo{
+    text-align: center;
+    border-bottom: 1px solid #747577;
+    margin-top: 40px;
+    line-height: 0.1rem;
+}
+
+.overallPlo .loginboxPlo .formboxPlo #regh2Plo span{
+    color: #747577;
+    padding:0 15px;
+    background:#182232;
+    font-size: 17px;
+}
+
+.overallPlo .loginboxPlo .buttonPlo{
+    padding: 15px;
+}
+
+.overallPlo .loginboxPlo .buttonPlo #button1Plo{
+    width:100%;
+    padding:8px 30px;
+    background: #182232;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    background:linear-gradient(to right, #66ff00, aqua);
+    background-clip: text;
+    color:transparent;
+    outline:1px solid #8799b5;
+    border: none;
+    transition: .2s;
+}
+
+.overallPlo .loginboxPlo .buttonPlo #button1Plo:hover{
+    background: #343b4d;
+    color:#66ff00;   
+}
+
+.overallPlo .loginboxPlo .buttonPlo #button1Plo .fa-brands.fa-google{
+    background:linear-gradient(to right, #66ff00, aqua);
+    background-clip: text;
+    color:transparent;
+}
+
+.overallPlo .loginboxPlo .buttonPlo #button2Plo{
+    width:100%;
+    padding:8px 30px;
+    background: #182232;
+    border: none;
+    outline:1px solid #8799b5;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    background:linear-gradient(to right, #66ff00, aqua);
+    background-clip: text;
+    color:transparent;
+    transition: .2s;
+}
+
+.overallPlo .loginboxPlo .buttonPlo #button2Plo:hover{
+    background: #343b4d;
+    color:#66ff00; 
+}
+
+.overallPlo .loginboxPlo .buttonPlo #button2Plo .fa-brands.fa-linkedin{
+    font-size: 21px;
+    background:linear-gradient(to right, #66ff00, aqua);
+    background-clip: text;
+    color:transparent;
+}
+
+.overallPlo .loginboxPlo #pPlo{
+    padding: 15px;
+    color:#747577;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.overallPlo .loginboxPlo #pPlo a{
+    text-decoration: none;
+    color: #66ff00;
+    font-size: 17px;
+}
+
+.overallPlo .loginboxPlo #pPlo a:hover{
+    text-decoration: underline;
 }
