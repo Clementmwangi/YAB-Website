@@ -515,7 +515,7 @@
 
 .overallF .navbarF .navbar2F .loginF{
     position: relative;
-    width:225px;
+    width:340px;
     height:40px;
     background:transparent;
     display:flex;
@@ -544,6 +544,12 @@
     border:1px solid #66ff00;
 }
 
+.overallF .navbarF .navbar2F .loginF a:nth-child(2){
+    background:#121c2b;
+    color:#66ff00;
+    border:1px solid #66ff00;
+}
+
 .overallF .navbarF .navbar2F .loginF::before{
     content: '';
     top:0;
@@ -560,7 +566,11 @@
     color:black;
 }
 
-.overallF .navbarF .navbar2F .loginF a:nth-child(2):hover{
+/* .overallF .navbarF .navbar2F .loginF a:nth-child(2):hover{
+    color:#66ff00;
+} */
+
+.overallF .navbarF .navbar2F .loginF a:nth-child(3):hover{
     color:#66ff00;
 }
 
@@ -576,7 +586,11 @@
     background: #66ff00;
 }
 
-.overallF .navbarF .navbar2F .loginF a:nth-child(2)::before{
+/* .overallF .navbarF .navbar2F .loginF a:nth-child(2)::before{
+    background: #121c2b;
+} */
+
+.overallF .navbarF .navbar2F .loginF a:nth-child(3)::before{
     background: #121c2b;
 }
 
@@ -588,7 +602,7 @@
 
 .overallF .sectionF{
     width:100%;
-    height:540px;
+    height:530px;
     position: relative;
     padding: 60px;
     margin-bottom: 5px;
@@ -636,7 +650,7 @@
 .overallF .sectionF .sectionF-text .sectionF-p{
     position: relative;
     width:780px;
-    margin-bottom: 35px;
+    margin-bottom: 45px;
     z-index: 1;
 }
 
@@ -656,7 +670,7 @@
     margin-bottom: 20px;
 }
 
-.overallF .sectionF .sectionF-btns a{
+/* .overallF .sectionF .sectionF-btns a{
     position:relative;
     border:1px solid #66ff00;
     border-radius:8px;
@@ -676,13 +690,13 @@
     z-index:1;
     overflow:hidden;
     transition:.5s;
-}
+} */
 
-.overallF .sectionF .sectionF-btns a:hover{
+/* .overallF .sectionF .sectionF-btns a:hover{
     color:#66ff00;
-}
+} */
 
-.overallF .sectionF .sectionF-btns a::before{
+/* .overallF .sectionF .sectionF-btns a::before{
     content: '';
     width:0;
     height:100%;
@@ -692,22 +706,22 @@
     z-index:-1; 
     transition:.5s;
     background: #121c2b;
-}
+} */
 
-.overallF .sectionF .sectionF-btns a:hover::before{
-    width:100%;
-}
+/* .overallF .sectionF .sectionF-btns a:hover::before{
+  width:100%;
+} */
 
 .overallF .sectionF .sectionF-end{
-    width:450px;
-    height:45px;
+    width:590px;
+    height:50px;
     position:relative;
     z-index: 1;
 }
 
 .overallF .sectionF .sectionF-end a button{
     padding: 7px 5px;
-    margin-right: 7px;
+    margin-right: 11px;
     border: none;
     border-radius: 15px;
     background: #242f40;
@@ -722,10 +736,10 @@
     display:inline-flex;
     justify-content:center;
     align-items:center;
-    width:445px;
+    width:545px;
     height:100%;
     padding:10px;
-    font-size:17px;
+    font-size:21px;
     font-weight:200;
     background:#121c2b;
     text-decoration:none;
@@ -791,28 +805,11 @@
     align-items: center;
 }
 
-.item1F p{
-    font-size:1.8em;
-    font-weight: 800;
-    background:linear-gradient(to right, #66ff00, blue);
-    background-clip: text;
-    color:transparent;
-}
-
 .item2F {
     animation-delay: calc(30s / 8 * (8 - 2) * -1);
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.item2F p{
-    font-size:1.8em;
-    font-weight: 800;
-    /* background:linear-gradient(to right, #66ff00, blue);
-    background-clip: text;
-    color:transparent; */
-    color: white;
 }
 
 .item3F {
@@ -822,28 +819,11 @@
     align-items: center;
 }
 
-.item3F p{
-    font-size:1.8em;
-    font-weight: 800;
-    background:linear-gradient(to right, #66ff00, blue);
-    background-clip: text;
-    color:transparent;
-}
-
 .item4F {
     animation-delay: calc(30s / 8 * (8 - 4) * -1);
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.item4F p{
-    font-size:2.1em;
-    font-weight: 800;
-    /* background:linear-gradient(to right, #66ff00, blue);
-    background-clip: text;
-    color:transparent; */
-    color: white;
 }
 
 .item5F {
@@ -853,28 +833,11 @@
     align-items: center;
 }
 
-.item5F p{
-    font-size:2.1em;
-    font-weight: 800;
-    background:linear-gradient(to right, #66ff00, blue);
-    background-clip: text;
-    color:transparent;
-}
-
 .item6F {
     animation-delay: calc(30s / 8 * (8 - 6) * -1);
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.item6F p{
-    font-size:2.1em;
-    font-weight: 800;
-    /* background:linear-gradient(to right, #66ff00, blue);
-    background-clip: text;
-    color:transparent; */
-    color:white;
 }
 
 .item7F {
@@ -884,28 +847,11 @@
     align-items: center;
 }
 
-.item7F p{
-    font-size:2.1em;
-    font-weight: 800;
-    background:linear-gradient(to right, #66ff00, blue);
-    background-clip: text;
-    color:transparent;
-}
-
 .item8F {
     animation-delay: calc(30s / 8 * (8 - 8) * -1);
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.item8F p{
-    font-size:2.1em;
-    font-weight: 800;
-    /* background:linear-gradient(to right, #66ff00, blue);
-    background-clip: text;
-    color:transparent; */
-    color:white;
 }
 
 .overallF .sponsorF{
@@ -1053,7 +999,12 @@
 .overallPlo{
     width: 100%;
     min-height:100dvh;
-    background-color:#121c2b;
+    background: url(bluelock2a.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    object-fit:cover;
+    background-position:center;
+    background-attachment:scroll;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -1177,6 +1128,7 @@
     box-shadow:9px 9px 9px #131419 inset,
     -7px 7px 7px #242f40 inset;
     color: limegreen;
+    cursor: pointer;
 }
 
 .overallPlo .loginboxPlo .formboxPlo #regh2Plo{
@@ -1215,6 +1167,7 @@
 .overallPlo .loginboxPlo .buttonPlo #button1Plo:hover{
     background: #343b4d;
     color:#66ff00;   
+    cursor: pointer;
 }
 
 .overallPlo .loginboxPlo .buttonPlo #button1Plo .fa-brands.fa-google{
@@ -1241,6 +1194,7 @@
 .overallPlo .loginboxPlo .buttonPlo #button2Plo:hover{
     background: #343b4d;
     color:#66ff00; 
+    cursor: pointer;
 }
 
 .overallPlo .loginboxPlo .buttonPlo #button2Plo .fa-brands.fa-linkedin{
